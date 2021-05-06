@@ -1,0 +1,82 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 05/05/2021, 15:25:48
+    Author     : Jonathan
+*/
+
+body {
+    font-family: 'Cairo', light;
+    padding: 20px;
+    background-color: #222831;
+    color: white;
+}
+
+#container {
+    padding: 20px;
+}
+
+.matchContainer {
+    padding: 20px 0;
+    background-color: #393e46;
+    border-color: gray;
+    margin-top: 2px;
+    border-bottom: 1px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.matchDate {
+   flex-basis: 5%;
+}
+
+.matchTeams {
+    flex: 1 1 0%;
+}
+
+.matchTeam {
+    display: flex;
+}
+
+.matchTeamName {
+    text-align: left;
+}
+
+.matchTeamPoints {
+    align-self: center;
+}
+
+.matchTeamDivisor {
+    height: 1px;
+    flex: 1 1 0%;
+    margin: 0 20px;
+    background: #4a515d;
+    align-self: center;
+}
+
+.matchMDContainer {
+    flex-basis: 15%;
+    margin: 10px;
+    text-align: -webkit-center;
+}
+
+.matchMD {
+    background: #9e3f3f;
+    width: 50px;
+    border-radius: 5px;
+    align-self: center;
+}
+
+.matchTournament {
+    flex-basis: 30%;
+    margin: 10px;
+    font-size: 14px;
+}
+
+
+
+
